@@ -190,7 +190,7 @@ function AB8()
 if ME8 == "🔵" then 
 RangesList = gg.getRangesList("libgame.so")[1].start
 offset =0x49D6DC
-setvalue(RangesList + offset, 16, 2000)
+setvalue(RangesList + offset, 16, 2500)
 gg.toast(" เปิดฟังก์ชันเสตจวิ่งคะแนนคูณแล้ว❕")
 ME8 = "🔴"
 elseif ME8 == "🔴" then
