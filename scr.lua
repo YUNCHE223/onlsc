@@ -1,11 +1,11 @@
-if os.date("%Y%m%d") > "20240202" then
+if os.date("%Y%m%d") > "20240206" then
 EXPALERT = gg.alert([[
     
      โปรหมดอายุแล้ว: เช่าโปรได้ที่ LINE : spartan999
       
      สถานะโปร: โปรหมดอายุ
     
-     วันหมดอายุ: 02.02.67
+     วันหมดอายุ: 06.02.67
 ]])
 os.exit()
 end
@@ -121,13 +121,13 @@ ME4 = "🔵"
 function AB4()
 if ME4 == "🔵" then 
 RangesList = gg.getRangesList("libgame.so")[1].start
-offset = 0x124834C
+offset = 0x124855C
 setvalue(RangesList + offset, 16, 1.40129846e-40)
 gg.toast(" เปิดฟังก์ชันกันรีพอร์ตแล้ว❕")
 ME4 = "🔴"
 elseif ME4 == "🔴" then
 RangesList = gg.getRangesList("libgame.so")[1].start
-offset = 0x124834C
+offset = 0x124855C
 setvalue(RangesList + offset, 16, 2.24207754e-43)
 gg.toast(" ปิดฟังก์ชันกันรีพอร์ตแล้ว❕")
 ME4 = "🔵"
@@ -155,13 +155,13 @@ ME6 = "🔵"
 function AB6()
 if ME6 == "🔵" then 
 RangesList = gg.getRangesList("libgame.so")[1].start
-offset =0xB941A4
+offset =0xB94304
 setvalue(RangesList + offset, 16, 0.3)
 gg.toast(" เปิดฟังก์ชันเร่งความเร็วแล้ว❕")
 ME6 = "🔴"
 elseif ME6 == "🔴" then
 RangesList = gg.getRangesList("libgame.so")[1].start
-offset =0xB941A4
+offset =0xB94304
 setvalue(RangesList + offset, 16, 1.12)
 gg.toast(" ปิดฟังก์ชันเร่งความเร็วแล้ว❕")
 ME6 = "🔵"
@@ -189,15 +189,15 @@ ME8 = "🔵"
 function AB8()
 if ME8 == "🔵" then 
 RangesList = gg.getRangesList("libgame.so")[1].start
-offset =0x
+offset =0x49D6DC
 setvalue(RangesList + offset, 16, 6000)
-gg.toast(" เปิดฟังก์ชันเสตจวิ่งคะแนนคูณ5แล้ว❕")
+gg.toast(" เปิดฟังก์ชันเสตจวิ่งคะแนนคูณแล้ว❕")
 ME8 = "🔴"
 elseif ME8 == "🔴" then
 RangesList = gg.getRangesList("libgame.so")[1].start
-offset =0x
+offset =0x49D6DC
 setvalue(RangesList + offset, 16, 1200)
-gg.toast(" ปิดฟังก์ชันเสตจวิ่งคะแนนคูณ5แล้ว❕")
+gg.toast(" ปิดฟังก์ชันเสตจวิ่งคะแนนคูณแล้ว❕")
 ME8 = "🔵"
 end
 end
