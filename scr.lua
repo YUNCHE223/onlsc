@@ -1,4 +1,4 @@
-if os.date("%Y%m%d") > "20240206" then
+if os.date("%Y%m%d") > "20000206" then
 EXPALERT = gg.alert([[
     
      โปรหมดอายุแล้ว: เช่าโปรได้ที่ LINE : spartan999
